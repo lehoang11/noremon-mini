@@ -1,0 +1,112 @@
+
+.upload-image-one {
+    width: 250px;
+    float: left;
+    border: 1px solid #ddd;
+    margin: 20px 0px;
+}
+
+.upload-image-one .show-image-one {
+    width: 100%;
+    float: left;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+.show-image-one img {
+    width: 100%;
+}
+
+.upload-image-one .upload-form-one {
+    width: 100%;
+    height:50px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.upload_box {
+    overflow: hidden;
+    position: relative;
+}
+.upload_box>input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+/*upload photo*/
+.upload-photo-btn {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 20px 20px 20px 0px;
+}
+
+.upload-photo-layout {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 5px 0px;
+    position: relative;
+}
+.upload-photo-box {
+    overflow: hidden;
+    position: relative;
+    margin-top: 5px;
+}
+.upload-photo-box>input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4);
+    font-size: 23px;
+    direction: ltr;
+    cursor: pointer;
+}
+.upload-photo-layout img {
+    width: 100%;
+    height: 100%;
+}
+.upload-photo-layout .btn-del-photo {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 24px;
+    height: 24px;
+    display: none;
+    text-align: center;
+    color: white;
+    background-color: #d9534f;
+    font-size: 16px;
+}
+.upload-photo-layout:hover .btn-del-photo {
+    display: block;
+}
+
+.upload-photo-layout .btn-del-photo-product {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 24px;
+    height: 24px;
+    display: none;
+    text-align: center;
+    color: white;
+    background-color: #d9534f;
+    font-size: 16px;
+}
+.upload-photo-layout:hover .btn-del-photo-product {
+    display: block;
+}
